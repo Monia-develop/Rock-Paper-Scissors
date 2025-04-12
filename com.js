@@ -82,14 +82,3 @@ function playGame(){
 }
 console.log(playGame());
 
-
-`//creating a function to get rock,paper,scissors randomly 
-//creation another function to get the human choice this time
-//variable to make the human choice is case sensitive
-//necessary to get the outcome with the score
-//loop to get five round of rock paper scissors
-//1. using the math.floor() method to get a random number and get rock,paper or scissors
-//2. The prompt asks the user for a choice
-//3. The Lowercase method is there to make sure the human could write one the choices as he wishes 
-// 4. incrementation of the score and making sure that we see what the human and computer played 
-// 5.at the end the user will finally know if he won or lost`
