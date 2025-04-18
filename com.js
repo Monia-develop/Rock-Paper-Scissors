@@ -76,9 +76,13 @@ scissors.addEventListener('click', () => {
 
 // Everything below is useful for the function playRound
 const resultDIV = document.querySelector('#result');
+resultDIV.setAttribute("style", "color: yellow");
 const scoreDIV = document.querySelector('#score');
+scoreDIV.setAttribute("style", "color: yellow");
+
 
 function resultdisplay(message){
+resultDIV.textContent='';
 const p = document.createElement('p');
 p.textContent = message;
 p.setAttribute("style", "border : 2px solid black");
@@ -106,7 +110,6 @@ reset.addEventListener('click', resetGame)
 function resetGame() {
     humanScore = 0;
     computerScore = 0;
-    
     rock.disabled = false;
     paper.disabled = false;
     scissors.disabled = false;
